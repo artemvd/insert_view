@@ -1,0 +1,8 @@
+name: 'Insert view'
+type: module
+description: 'Input filter which allows to embed views.'
+dependencies:
+  - views
+package: 'Input filters'
+core: 8.x
+

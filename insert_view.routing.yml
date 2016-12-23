@@ -1,0 +1,9 @@
+insert_view.editor_dialog:
+  path: '/insert-view-wysiwyg/dialog/{filter_format}'
+  defaults:
+    _form: '\Drupal\insert_view\Form\InsertViewDialog'
+    _title: 'Insert View Form'
+  options:
+    _theme: ajax_base_page
+  requirements:
+    _entity_access: 'filter_format.use'
